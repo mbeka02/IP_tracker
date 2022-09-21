@@ -41,7 +41,7 @@ function App() {
   }, [val]);
   //Rendering page content(components,map-container etc.)
   return (
-    <div className="App">
+    <main className="App">
       <Nav
         onSub={(IP) => {
           setVal(IP);
@@ -63,7 +63,7 @@ function App() {
           )}
         </MapContainer>
       )}
-    </div>
+    </main>
   );
 }
 
